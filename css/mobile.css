@@ -1,0 +1,277 @@
+@media screen and (max-width:980px) {
+    header .sitemap {
+        justify-content: center;
+    }
+    .itemCount1 {
+        order: 6;
+    }
+    .itemCount1.title {
+        order: 1;
+        padding: 20px;
+    }
+    .width980 {
+        width: 95%;
+    }
+    .slide {
+        margin-top: 60px;
+    }
+    .ac_breadcrumb {
+        margin-top: 80px;
+    }
+    .slide img {
+        width: 100%;
+    }
+    h1 a.logo {
+        width: 250px;
+        height: 70px;
+        background-size: contain;
+    }
+    header {
+        min-height: 60px;
+        width: 100%;
+        background-color: #fff;
+        margin: 0;
+        border-bottom: #666 1px solid;
+    }
+    header.on {
+        background-color: transparent;
+        border-bottom: none;
+        border-top: none;
+    }
+    .marqee {
+        margin-top: 97px;
+    }
+    .marqee.hide {
+        margin-top: 70px;
+    }
+    header.on .rainbow,
+    header.on hr {
+        display: none;
+    }
+    .submenu {
+        display: block;
+        overflow-y: scroll;
+        width: 100%;
+    }
+    .submenu li>.hasChild {
+        opacity: 1;
+    }
+    .submenu li {
+        width: 100%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: auto;
+        flex-flow: unset;
+        flex-direction: column;
+        z-index: unset;
+        border-bottom: #ccc 1px solid;
+        overflow: hidden;
+    }
+    .submenu li.nsdnmenu>.hasChild ul {
+        width: 100%;
+        flex-wrap: wrap
+    }
+    .submenu li.nsdnmenu>.hasChild {
+        display: none;
+        position: relative;
+        top: unset;
+        transition: unset;
+        padding-top: 0;
+    }
+    .submenu li>.hasChild.on {
+        position: relative;
+        display: block;
+        transition: all 0.3s;
+    }
+    .submenu li.nsdnmenu:hover>.hasChild,
+    .submenu li.nsdnmenu:focus-within .hasChild {
+        width: 100%;
+    }
+    .submenu li>.hasChild>.width980 {
+        flex-direction: column;
+    }
+    .submenu li .hasChild li {
+        padding: 0;
+        border-bottom: #fff 1px solid;
+    }
+    .submenu li>.hasChild li a {
+        border: none;
+    }
+    .submenu li.nsdnmenu span:after {
+        transform: rotate(135deg);
+        transition: all 0.3s;
+    }
+    .submenu li.nsdnmenu>.hasChild ul li {
+        flex-direction: column;
+        width: 100%;
+    }
+    .submenu li.nsdnmenu>.hasChild ul {
+        width: 100%;
+    }
+    .submenu li.nsdnmenu.widthauto>.hasChild ul {
+        width: 100%;
+    }
+    .submenu li.nsdnmenu.on span:after {
+        transform: rotate(-45deg);
+        border-bottom: none;
+        border-left: none;
+        margin-bottom: -5px;
+        transition: all 0.3s;
+    }
+    .submenu li span {
+        height: auto;
+        width: 100%;
+        display: flex;
+        padding: 20px 0;
+        justify-content: center;
+    }
+    .submenu li a {
+        flex-grow: unset;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .inside1 {
+        width: 95%;
+    }
+    .inside1 ul {
+        justify-content: center;
+    }
+    .inside1 ul li {
+        margin: 0 10px;
+    }
+    .inside_banner3 {
+        margin-top: 70px;
+    }
+    /*mobile選單*/
+    #mobile_menu_labIcon {
+        display: block;
+        position: fixed;
+        right: 10px;
+        top: 18px;
+        z-index: 1000;
+    }
+    #menu_mobile {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        font-size: 1em;
+        position: relative;
+        display: block;
+    }
+    .hamburger {
+        cursor: pointer;
+        display: block;
+    }
+    .hamburger2 {
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        display: block;
+    }
+    .hamburger2 .line {
+        width: 30px;
+        height: 2px;
+        background-color: #d09623;
+        display: block;
+        margin: 4px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        border-radius: 50px;
+    }
+    .hamburger2:hover {
+        cursor: pointer;
+    }
+    .hamburger .line {
+        width: 30px;
+        height: 3px;
+        background-color: #666;
+        display: block;
+        margin: 4px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        border-radius: 50px;
+    }
+    .hamburger:hover {
+        cursor: pointer;
+    }
+    #hamburger-1.is-active .line:nth-child(2) {
+        opacity: 0;
+    }
+    #hamburger-1.is-active .line:nth-child(1) {
+        transform: translateY(3px) rotate(45deg);
+    }
+    #hamburger-1.is-active .line:nth-child(3) {
+        transform: translateY(-11px) rotate(-45deg);
+    }
+    .portfolio-filter.isotope-filter.pull-center {
+        width: calc(100% - 80px);
+        height: 100%;
+        position: fixed;
+        left: calc(-100% + 80px);
+        top: 0;
+        z-index: 9999;
+        background: #fff;
+        margin-bottom: 0;
+        margin-top: 0;
+        transition: 0.3s;
+    }
+    .btn.SearchBtn {
+        position: absolute;
+        right: 10px;
+    }
+    .portfolio-filter.isotope-filter.pull-center.on {
+        left: 0;
+        transition: 0.3s;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+    }
+    .new_flex {
+        flex-direction: column;
+    }
+    .news_b {
+        grid-template-columns: unset;
+    }
+    .nested_nav {
+        width: 100%;
+    }
+    .inside3 {
+        flex-wrap: wrap;
+    }
+    .txt_b {
+        grid-template-columns: unset;
+    }
+    .index_banner {
+        padding: 50px;
+    }
+    .index_banner img {
+        width: 100%;
+    }
+    .service_b {
+        grid-template-columns: unset;
+    }
+}
+
+@media screen and (max-width:658px) {
+    .banner {
+        display: none;
+    }
+    .mobile_banner {
+        display: block;
+    }
+    .news_b ul {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width:320px) {
+    h1 a.inside_logo {
+        max-width: calc(100% - 40px);
+    }
+}
